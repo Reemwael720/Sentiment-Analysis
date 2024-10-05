@@ -21,7 +21,7 @@ To prepare the dataset, the following preprocessing steps were applied:
   ![image](https://github.com/user-attachments/assets/69fdada7-8762-4aae-8007-51b495031aa1)
 
   - Achieved 87.26% accuracy on the test set
-##Model Architecture
+## Model Architecture
 The sentiment classification model is built using an LSTM (Long Short-Term Memory) architecture, known for its effectiveness with sequential data like text. Key details of the model include:
 
 * Embedding layer:Converts text input into dense vectors of fixed size.
@@ -32,15 +32,27 @@ The sentiment classification model is built using an LSTM (Long Short-Term Memor
   ![image](https://github.com/user-attachments/assets/85293c29-0613-4df3-82f7-dec76cb8b8fb)
 
 
-##Training
+## Training
  * Epochs: 10
  * Batch Size: 32
  * Optimizer: Adam
  * Loss Function: Sparse categorical cross-entropy
 
-Gradio Interface
+
+## Gradio Interface
 To make the model more interactive, a Gradio GUI was developed. This allows users to input a movie review and receive the predicted sentiment in real time.
 
 ![image](https://github.com/user-attachments/assets/f6cff75a-dbd0-4023-b4ce-ead3e97103ba)
+
+## Result
+postive
+![Screenshot 2024-10-06 002224](https://github.com/user-attachments/assets/79529567-c01b-4dad-9fc3-6da558f39c3c)
+
+negative 
+![Screenshot 2024-10-06 002301](https://github.com/user-attachments/assets/4f55f6b2-56a5-4da3-b5fc-498d2af99609)
+
+natural
+![Screenshot 2024-10-06 002331](https://github.com/user-attachments/assets/3a0fd738-aad2-4671-a047-fce7e1b28469)
+
 
   
